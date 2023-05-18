@@ -1,12 +1,12 @@
-import {Component, OnInit} from '@angular/core';
-import {PoliciesService} from "../policies.service";
+import { Component, OnInit } from '@angular/core';
+import { PoliciesService } from "../policies.service";
 
 @Component({
   selector: 'app-policy-list',
   templateUrl: './policy-list.component.html',
   styleUrls: ['./policy-list.component.scss']
 })
-export class PolicyListComponent implements OnInit{
+export class PolicyListComponent implements OnInit {
   policies: any[] = [];
 
   filteredPolicies: any[] = [];
@@ -20,7 +20,7 @@ export class PolicyListComponent implements OnInit{
   }
 
   search(e: any) {
-    this.filteredPolicies = this.policies.filter(policy => policy.title.includes(e.target.value))
+    this.filteredPolicies = this.policies.filter(policy => policy.title.includes(e.target.value) || policy.tags.some((tags: any) => tags.includes(e.target.value)))
   }
 
 }
