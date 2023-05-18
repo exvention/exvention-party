@@ -1,0 +1,26 @@
+$var-ci-orange: #ff5444;
+
+header {
+  background: $var-ci-orange;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.nav-pills .nav-link {
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-top: 12px;
+  color: white !important;
+}
+
+.nav-pills .nav-link.active {
+  background: white;
+  color: $var-ci-orange !important;
+}
+
+.nav-pills .nav-link:hover {
+  text-decoration: underline;
+}

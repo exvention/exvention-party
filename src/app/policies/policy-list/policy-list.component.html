@@ -1,0 +1,35 @@
+<div id="search-jumbotron">
+  <div class="jumbotron-box" style="backdrop-filter: blur(10px)">
+    <div class="py-5 text-white d-flex align-items-center jumbotron-box">
+      <div class="container pb-4">
+        <label for="search" class="fs-1 d-block fw-semibold">ค้นหานโยบายพรรค</label>
+        <div class="input-group input-group-lg">
+          <input id="search" type="text" class="form-control border-0" placeholder="เช่น เกษตร, การศึกษา, คมนาคม, ความมั่นคง, ทหาร, กระจายอำนาจ" (keyup)="search($event)">
+          <button class="btn btn-lg btn-primary border-0" type="button">
+            ค้นหา <fa-icon icon="search" class="ms-1"></fa-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 mb-4">
+      <h1 class="text-center fw-bold" style="font-size: 3.3rem">300 นโยบาย</h1>
+      <h2 class="text-center">ที่พรรค Exvention พร้อมจะนำไปพัฒนาประเทศ</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 mb-4" *ngFor="let policy of filteredPolicies">
+      <div class="card rounded-0 h-100">
+        <img class="w-100" [src]="policy.img" style="aspect-ratio: 3/2">
+        <div class="card-body">
+          <h3 class="mb-0 fs-4">{{policy.title}}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
