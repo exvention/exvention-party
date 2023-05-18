@@ -1,26 +1,47 @@
 [
   {
-    "title" : "ความมั่นคง: ยกเลิกเกณฑ์ทหาร",
-    "img": "https://brightsparks.com.sg/magazine/february-2022/img/mindef/army/army-masthead.jpg"
+    "title" : "ยกเลิกเกณฑ์ทหาร",
+    "img": "https://brightsparks.com.sg/magazine/february-2022/img/mindef/army/army-masthead.jpg",
+    "tags": ["ความมั่นคง"]
   },
   {
-    "title" : "เกษตร: ยุติข้อพิพาทที่ดิน",
-    "img": "https://www.asiaone.com/sites/default/files/inline-images/040822_japan_ww%20%281%29.jpg"
+    "title" : "ยุติข้อพิพาทที่ดิน",
+    "img": "https://www.asiaone.com/sites/default/files/inline-images/040822_japan_ww%20%281%29.jpg",
+    "tags": ["เกษตร"]
   },
   {
-    "title" : "เศรษฐกิจ: ปรับขึ้นค่าแรง",
-    "img": "https://s13076.pcdn.co/wp-content/uploads/2015/07/Indonesia-factory-workers.jpg"
+    "title" : "ปรับขึ้นค่าแรง",
+    "img": "https://s13076.pcdn.co/wp-content/uploads/2015/07/Indonesia-factory-workers.jpg",
+    "tags": ["เศรษฐกิจ"]
   },
   {
     "title" : "การศึกษา: คืนครูให้นักเรียน",
-    "img": "https://campus.campus-star.com/app/uploads/2018/01/21-1.jpg"
+    "img": "https://campus.campus-star.com/app/uploads/2018/01/21-1.jpg",
+    "tags": ["การศึกษา"]
+  },
+  {
+    "title" : "ออกแบบหลักสูตรใหม่ ใช้ได้จริง",
+    "img": "https://www.science.edu.sg/images/default-source/scs-images/stem-inc/about-stem/heng-sk-greendale-1.jpg",
+    "tags": ["การศึกษา", "นักเรียน", "ครู"]
+  },
+  {
+    "title" : "วิชาประวัติศาสตร์ เน้นวิเคราะห์-แลกเปลี่ยน",
+    "img": "https://c.files.bbci.co.uk/16081/production/_113014209_gettyimages-517733472.jpg",
+    "tags": ["การศึกษา", "นักเรียน"]
   },
   {
     "title": "คมนาคม: รถไฟความเร็วสูง",
-    "img": "https://i.ytimg.com/vi/SUBUTo82EQw/maxresdefault.jpg"
+    "img": "https://i.ytimg.com/vi/SUBUTo82EQw/maxresdefault.jpg",
+    "tags": ["คมนาคม","เศรษฐกิจ"]
   },
   {
     "title": "กระจายอำนาจ: เลือกตั้งผู้ว่าจังหวัด",
-    "img": "https://img.pptvhd36.com/thumbor/2023/02/21/f2e4a7e.jpg"
+    "img": "https://img.pptvhd36.com/thumbor/2023/02/21/f2e4a7e.jpg",
+    "tags": ["กระจายอำนาจ", "บริหารท้องถิ่น"]
+  },
+  {
+    "title": "ควบคุมค่าไฟ",
+    "img": "https://cdn-cms.pgimgs.com/static/2020/07/shutterstock_747080278.jpg",
+    "tags": ["พลังงาน", "เศรษฐกิจ"]
   }
 ]
